@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <table class="input">
+        <tr>
+          <td><label for="productId">Product ID</label></td>
+          <td>
+            <input type="text" id="productId" name="productId" value="" />
+          </td>
+          <td id="productIdError"></td>
+        </tr>
+        <tr>
+          <td><label for="productName">Product Name</label></td>
+          <td>
+            <input type="text" id="productName" name="productName" value="" />
+          </td>
+          <td id="productNameError"></td>
+        </tr>
+        <tr>
+          <td><label for="productPrice">Product Price</label></td>
+          <td>
+            <input type="number" id="productPrice" name="productPrice" value="" />
+          </td>
+          <td id="productPriceError"></td>
+        </tr>
+      </table>
+
+      <div class="btn" onclick="AddRow()">Add Product</div>
+
+      <!-- <div id="content"> </div> -->
+
+      <table class="result">
+        <thead>
+          <tr>
+            <th>Product Id</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="javascripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+.menu-bar{
+    margin:1px  1px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-size: cover;
+    background-position: center;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 5px;
+    padding: 1px;
+    float: left;
+}
+.menu-bar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+.menu-bar ul li a:hover {
+    background-color: green;
+  }
+/*  sub menu not display in sreen */
+.sub-menu-1{ 
+    display: none;
+}
+/*  sub menu fixed  */
+.menu-bar ul li:hover .sub-menu-1{ 
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+/*  sub menu to convert to list vertical  */
+.menu-bar ul li:hover .sub-menu-1 ul{   
+    display: block;
+    margin-top: -9px;
+    margin-left: 12px;
+    margin-right: -150px; 
+    padding-right: 20px;    
+}
+/*  sub menu to bottom to dotted line  */
+.menu-bar ul li:hover .sub-menu-1 ul li{  
+    display: block;
+    margin: 10px;
+    border-bottom: 1px dotted green;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{ 
+    border-bottom: none;
+}

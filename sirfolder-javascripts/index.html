@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Product ID</td>
+            <td><input type="text" id="pid"></td>
+        </tr>
+        <tr>
+            <td>Product Name</td>
+            <td><input type="text" id="pname"></td>
+        </tr>
+        <tr>
+            <td>Product Price</td>
+            <td><input type="number" id="price"></td>
+        </tr>
+    </table>    
+    <span onclick=addProduct()>ADD Product</span>
+    <table id="result">
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+            </tr>
+        </thead>
+        <tbody id="data"></tbody>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>

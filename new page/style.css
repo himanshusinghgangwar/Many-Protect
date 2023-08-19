@@ -1,0 +1,105 @@
+/* header start  */
+* {
+    box-sizing: border-box;
+  }
+.container {
+    margin: 20px 20px;
+    background-position: 30px 30px;
+  }
+  /* header name */
+.header__name {
+    background-color: lightgrey;
+    display: block;
+    font-size: 30px;
+    padding: 20px 20px;
+}
+/* content space ignore */
+.content {
+    margin-top: -21px;
+}
+/* header link  */
+.header__link {
+    background-color: black;
+    height: 30px;
+    display: block;
+}
+.header__link ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 30px;
+}
+.header__link li {
+    box-sizing: border-box;
+    float: left;
+    border-right: 1px solid white;
+}
+.header__link a {
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+}
+.header__link a:hover {
+    background-color: green;
+}
+/* content 1 */
+.Page__heading{
+    display: block;
+    color: darkblue;
+    font-size: 30px;
+    margin: 3px 35px;
+}
+/* content paragraph */
+.Paragraph {
+    display: flex;
+    font-size: 15px;
+    text-align: justify;
+    margin: 5px 38px;
+}
+/* table design  */
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: auto;
+}
+.left {
+    width: 75%;
+}
+.right {
+    width: 25%;
+    margin-bottom: auto;
+    padding-bottom: 150px;
+    background-color:lightgrey;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  /* right content  */
+.Aside__heading {
+    color: darkblue;
+    font-size: 30px;
+    margin: 1px;
+    padding: 1px;
+  
+  }
+.Para {
+    display: flex;
+    font-size: 1vw;
+    text-align: justify;
+}
+/* footer section */
+.footer__section {
+    background-color: lightgrey;
+    height: 45px;
+}
+  
+.foot__content {
+    float: right;
+    padding-right: 10px;
+}

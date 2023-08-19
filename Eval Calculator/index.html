@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <input type="text" name="result" id="cal__Input"><br>
+        <!-- button -->
+        <div class="buttons">
+            <button class="button" type="button" value="7" onclick="updateTextbox(7)" id="7">7</button>
+            <button class="button" type="button" value="8" onclick="updateTextbox(8)" id="8">8</button>
+            <button class="button" type="button" value="9" onclick="updateTextbox(9)" id="9">9</button>
+            <button class="button" type="button" value="+" onclick="updateTextbox('+')" id="+">+</button><br>
+            <button class="button" type="button" value="4" onclick="updateTextbox(4)" id="4">4</button>
+            <button class="button" type="button" value="5" onclick="updateTextbox(5)" id="5">5</button>
+            <button class="button" type="button" value="6" onclick="updateTextbox(6)" id="6">6</button>
+            <button class="button" type="button" value="-" onclick="updateTextbox('-')" id="-">-</button><br>
+            <button class="button" type="button" value="1" onclick="updateTextbox(1)" id="1">1</button>
+            <button class="button" type="button" value="2" onclick="updateTextbox(2)" id="2">2</button>
+            <button class="button" type="button" value="3" onclick="updateTextbox(3)" id="3">3</button>
+            <button class="button" type="button" value="*" onclick="updateTextbox('*')" id="*">*</button><br>
+            <button class="button" type="button" value="0" onclick="updateTextbox(0)" id="0">0</button>
+            <button class="button" type="button" value="." onclick="reset()" id=".">clear</button>
+            <button class="button" type="button" value="=" onclick="result()" id="=">=</button>
+            <button class="button" type="button" value="/" onclick="updateTextbox('/')" id="/">/</button>
+        </div>
+    </div>
+    <script src="./js.js"></script>
+</body>
+
+</html>

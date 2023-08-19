@@ -1,0 +1,82 @@
+.container{
+    margin: 50px;
+}
+.header{
+    padding-bottom: 50px;
+}
+.header_logo{
+    display: inline;
+    width: 70%;
+    float: left;
+}
+.header_Links ul{
+    list-style-type: none;
+    display: flex;
+}
+.header_Links ul li{
+    padding-right: 50px;
+}
+/* content */
+.content{
+    width: 90%;
+    background-color: aqua;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.content_heading{
+    width: 30%;
+}
+.content_content{
+    width: 30%;
+    display: block;
+}
+/* content 1 */
+.container-heading_content{
+    width: 30%;
+    display: inline;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.content-heading_box{
+    background-color: blueviolet;
+    padding: 3em 4em;
+    margin-top: 2px;
+    align-content: center;
+}
+/* footer */
+.footer1{
+    background-color: aliceblue;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    padding-left: 90px;
+}
+.footer1_heading{
+    padding-left: 90px;
+    padding-right: 50px;
+}
+#footer1_input{
+    margin-right: 60px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: -25px;
+}
+.footer1_button{
+    background-color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+.footer2_left{
+    float: left;
+}
+.footer2_right{
+    float: right;
+}

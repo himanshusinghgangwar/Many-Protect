@@ -1,0 +1,77 @@
+.container{
+    margin: 50px;
+}
+.header{
+    padding-bottom: 50px;
+}
+.header_logo{
+    display: inline;
+    width: 70%;
+    float: left;
+}
+.header_Links ul{
+    list-style-type: none;
+    display: flex;
+}
+.header_Links ul li{
+    padding-right: 50px;
+}
+/* content */
+.content{
+    width: 95%;
+    background-color: rgb(217, 231, 240);
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content_content{
+    width: 30%;
+}
+/* content 2 */
+.container-heading_content{
+    width: 30%;
+    display: inline;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.content-heading_box{
+    background-color: blue;
+    padding: 3em 4em;
+    margin-top: 20px;
+    align-content: center;
+}
+/* footer */
+.footer1{
+    background-color: aliceblue;
+    width: 75%;
+    display: flex;
+    align-content: center;
+    padding-left: 25px;
+}
+.footer1_heading{
+    font-size: xx-large;
+    padding-right: 50px;
+}
+.footer1_input{
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer1_button{
+    background-color: blue;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: white;
+}
+.footer2_left{
+    float: left;
+}
+.footer2_right{
+    float: right;
+}

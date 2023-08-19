@@ -1,0 +1,11 @@
+span{
+    border: 2px solid black;
+    padding:15px;
+}
+table{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#result{
+    width: 80%;
+}

@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: linear-gradient(to bottom right, orange, white, green); */
+    /* background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%); */
+    background-size: cover;
+    background-position: center;
+
+}
+.menu-bar{
+    background-color: orange;
+    /* text-align: center; */
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li{
+    width: 100px;
+    margin: 5px;
+    padding: 1px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+/*  sub menu not display in sreen */
+.sub-menu-1{ 
+    display: none;
+}
+/*  sub menu fixed  */
+.menu-bar ul li:hover .sub-menu-1{ 
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom right, orange, white 10% ,blue , green);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+ /*  sub menu to convert to list vertical  */
+.menu-bar ul li:hover .sub-menu-1 ul{  
+    display: block;
+    margin: 10px;
+}
+/*  sub menu to bottom to dotted line  */
+.menu-bar ul li:hover .sub-menu-1 ul li{  
+    display: block;
+    margin: 10px;
+    border-bottom: 1px dotted green;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+/*  remove the last line bottom */
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{ 
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #BC70A4;
+}
+.sub-menu-2{
+    display: none;
+}
+/*  submenu to submenu*/
+.hover-me:hover .sub-menu-2 { 
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background:#BC70A4;
+}

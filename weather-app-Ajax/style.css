@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: lightblue;
+}
+/*  */
+.container {
+  border: 5px solid #dfd7bf;
+  border-radius: 45px;
+  max-width: 500px;
+  max-height: fit-content;
+  margin: 125px auto;
+  background-color: #f2ead3;
+}
+h1{
+    max-width: 200px;
+    margin: 12px auto;
+    font-size: 20px;
+    
+}
+#city__search{
+    max-width: 250px;
+    margin: 12px 120px;
+    padding: 10px 10px;
+}
+#weather__search{
+    max-width: 250px;
+    margin: 2px 145px;
+    padding: 5px 10px;
+}
+#show{
+  margin: 12px 125px;
+}
