@@ -1,0 +1,6 @@
+body{
+ background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 153, 255));
+}
+table, th, td {
+  border: 1px solid;
+}
